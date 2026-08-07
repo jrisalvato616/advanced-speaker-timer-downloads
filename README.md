@@ -9,14 +9,16 @@ A presentation timer for macOS that drives a second display, with a
 
 ## What's in a release
 
-Each release has two downloads:
+Each release has three downloads. Pick one:
 
-- **Advanced Speaker Timer** — the macOS app. This is the one most people want.
-- **The Companion module** — only needed if you want to control the timer from a
-  Stream Deck or Bitfocus Companion.
+- **`…-bundle.zip`** — everything in one file: the app, the Companion module,
+  and a readme. **Start here if you're not sure.**
+- **`AdvancedSpeakerTimer-….zip`** — just the macOS app.
+- **`advanced-speaker-timer-….tgz`** — just the Companion module, if you already
+  have the app and only need to update Companion.
 
-Both filenames end in a version number, and the two versions differ because the
-app and the module are updated separately.
+Filenames end in a version number. The app and the module are versioned
+separately, so their numbers differ.
 
 ---
 
