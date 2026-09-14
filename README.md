@@ -14,7 +14,7 @@ Each release has three downloads. Pick one:
 - **`…-bundle.zip`** — everything in one file: the app, the Companion module,
   and a readme. **Start here if you're not sure.**
 - **`AdvancedSpeakerTimer-….zip`** — just the macOS app.
-- **`advanced-speaker-timer-….tgz`** — just the Companion module, if you already
+- **`AdvancedSpeakerTimer-CompanionModule-….tgz`** — just the Companion module, if you already
   have the app and only need to update Companion.
 
 Filenames end in a version number. The app and the module are versioned
