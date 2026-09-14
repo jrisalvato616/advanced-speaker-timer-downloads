@@ -11,14 +11,14 @@ A presentation timer for macOS that drives a second display, with a
 
 Each release has three downloads. Pick one:
 
-- **`…-bundle.zip`** — everything in one file: the app, the Companion module,
-  and a readme. **Start here if you're not sure.**
-- **`AdvancedSpeakerTimer-….zip`** — just the macOS app.
-- **`AdvancedSpeakerTimer-CompanionModule-….tgz`** — just the Companion module, if you already
-  have the app and only need to update Companion.
+- **`AdvancedSpeakerTimer-…-Bundle.zip`** — everything in one file: the app,
+  the Companion module, and a readme. **Start here if you're not sure.**
+- **`AdvancedSpeakerTimer-…-App.zip`** — just the macOS app.
+- **`AdvancedSpeakerTimer-…-CompanionModule.tgz`** — just the Companion module,
+  if you already have the app and only need to update Companion.
 
-Filenames end in a version number. The app and the module are versioned
-separately, so their numbers differ.
+The app and the Companion module share a version number: use the module with
+the same number as your app.
 
 ---
 
@@ -73,7 +73,8 @@ itself — white when idle, green running, amber in the warning window, red in
 overtime.
 
 There are also presets for start/pause, reset, ±1 minute, output control, live
-messages, and one button per timer preset you've set up in the app.
+messages, each timer mode (the current mode's button lights up), and one button
+per timer preset you've set up in the app.
 
 ---
 
