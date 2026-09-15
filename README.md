@@ -78,6 +78,20 @@ per timer preset you've set up in the app.
 
 ---
 
+## Watching the timer on other devices
+
+- **Same network:** in the app's sidebar, turn on **Web Display**. Any phone,
+  tablet or computer on the same network can scan the QR code or open the
+  address shown.
+- **From anywhere:** turn on **Internet Sharing**. Viewers go to
+  [timer.foundrypros.com](https://timer.foundrypros.com) and enter the show code
+  the app shows, or scan its QR code. Click **New** for a fresh code, or type
+  your own (6–12 letters or numbers).
+
+Both are view-only.
+
+---
+
 ## Reporting a problem
 
 Open an [issue](../../issues) and include your macOS version, the app version,
