@@ -24,6 +24,8 @@ the same number as your app.
 
 ## Installing the app
 
+The current build supports Apple Silicon Macs running macOS 15.5 or later.
+
 1. Download **Advanced Speaker Timer** from the latest release. Most browsers
    unzip it for you; if not, double-click the downloaded file.
 2. Drag the app into your **Applications** folder.
@@ -31,8 +33,8 @@ the same number as your app.
 
 ### First launch: "Apple could not verify this app"
 
-macOS blocks apps that aren't notarized by Apple, and this one isn't. The app is
-safe, but you have to tell macOS to allow it once:
+This build has not been notarized by Apple. If macOS blocks its first launch,
+you can allow this downloaded build in System Settings:
 
 1. Double-click the app. You'll get a warning that it can't be opened — click
    **Done** (do *not* click "Move to Trash").
@@ -41,7 +43,7 @@ safe, but you have to tell macOS to allow it once:
    blocked — click **Open Anyway**.
 4. Confirm with **Open**.
 
-You only do this once. The app opens normally from then on.
+After you allow this build, subsequent launches normally open directly.
 
 > On older macOS versions you can instead right-click the app and choose **Open**.
 
@@ -49,32 +51,36 @@ You only do this once. The app opens normally from then on.
 
 ## Installing the Companion module
 
-Requires Companion 3.x or newer.
+Use Companion 4 or 5; the current package was tested with Companion 5.0.3.
 
 1. Download the module file (it ends in `.tgz`). **Don't unzip it** — Companion
    wants it as-is.
 2. In Companion, open the **Modules** page.
-3. Choose the option to import/install a module from a file and select the
-   `.tgz`.
-4. Go to **Connections**, add **Advanced Speaker Timer**, and set:
+3. Choose **Import module package** and select the intact `.tgz`.
+4. Go to **Connections**, add **Advanced Speaker Timer Pro**, or edit your
+   existing connection and select the module version matching your app. Set:
    - **Host** — `127.0.0.1` if Companion runs on the same Mac as the app,
      otherwise that Mac's IP address
    - **Port** — `18765`
 5. In the app's sidebar, turn on **Enable network control**.
 
-The connection should go green. If it doesn't, check that network control is on
-in the app and that nothing is blocking the port.
+The connection should report OK after receiving current timer status. If it
+doesn't, check that network control is on and that nothing is blocking the port.
 
 ### Getting a timer onto a button
 
 Open the **Presets** tab in Companion and drag one of the ready-made buttons
-onto your Stream Deck. **Timer A countdown** shows the live time and recolours
-itself — white when idle, green running, amber in the warning window, red in
-overtime.
+onto your Stream Deck. **Timer A live display (status colours)** shows the app's
+timer text — white when ready, green while running, yellow while paused, amber
+during warning, and red in overtime or when finished. Unavailable data turns gray.
 
-There are also presets for start/pause, reset, ±1 minute, output control, live
-messages, each timer mode (the current mode's button lights up), and one button
-per timer preset you've set up in the app.
+There are also presets for start/pause, reset, ±1 minute, output control, and
+output layouts. Timer presets are grouped by destination (Timer A or Timer B),
+and rotary controls browse and load highlighted presets.
+
+Message presets load a draft. **Send Draft** sends or replaces the live message;
+**Clear Msg** hides it and keeps the draft. Existing buttons retain their saved
+designs; drag fresh presets to use the revised labels and feedback styles.
 
 ---
 
